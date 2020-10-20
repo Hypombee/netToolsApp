@@ -13,7 +13,7 @@ const port = 9091;
 
 //testing Server
 app.get('/',(reg, res)=>{
-	res.send('Net Tools In Development..');
+	res.send('<head><title>NetToolsApp</title></head><b>Development In Progress</b><br><br><a href="https://hypombee.com">Back To Hypombee</a>');
 });
 
 app.listen(port,()=>{
